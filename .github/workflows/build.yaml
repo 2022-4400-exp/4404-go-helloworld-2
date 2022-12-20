@@ -17,5 +17,5 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build . -t ghcr.io/2022-4400-exp/4499-go-helloworld-2:${{ github.sha }}
+          docker build . -t ghcr.io/2022-4400-exp/4404-go-helloworld-2:${{ github.sha }}
           docker push ghcr.io/2022-4400-exp/4499-go-helloworld-2:${{ github.sha }}
