@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app: go-helloworld-2
-  name: go-helloworld-2
+  name: sonicexe
 spec:
   replicas: 1
   selector:
